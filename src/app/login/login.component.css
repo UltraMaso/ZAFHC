@@ -1,0 +1,58 @@
+
+
+
+.logoAnimation {
+  display: inline-block;
+
+  text-align: center;
+}
+
+.one { 
+  transform: rotateX(40deg);
+  animation: one 2s infinite;
+  animation-direction: alternate;
+}
+.page-user {
+    .logo {
+      padding: 20px 0;
+      min-height: 200px;
+      text-align: center;
+  
+      img {
+        max-width: 150px;
+      }
+    }
+  
+    .list {
+      margin-bottom: 0;
+    }
+  }
+.btncolor {
+  --background: var(--ion-color-btn);
+ 
+}
+h1{
+  font-family: 'IMPACT', sans-serif  !important;
+font-size: 45px;
+}
+.android {
+  h1{
+    font-family: 'IMPACT', sans-serif  !important;
+  font-size: 45px;
+  }
+}
+h5 {
+  font-family: 'papyrus', sans-serif  !important;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  }
+
+  .background{
+    background: url(backgroundColor2.png) 0 0/100% 100% no-repeat;
+ 
+}
+details { background: transparent !important;
+color: blue;
+font-weight: bolder;
+}

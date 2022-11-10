@@ -1,0 +1,57 @@
+<!-- <header>
+  <toolbar>
+      <button button menuToggle>
+    <icon name="menu"></icon>
+  </button>
+      <title>Login</title>
+  </toolbar>
+</header> -->
+<div class="main-content">
+<div  class="background">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" style="margin-top: 20%;">
+    <div>
+        <h1 style="font-weight: bolder;text-align: center;color: orange;font-family: 'IMPACT', sans-serif  !important;font-size: 45px;">ZAF-Health Care</h1>
+        <h5 style="text-align: center;color: #0101fe;  font-family: 'papyrus', sans-serif  !important;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bolder;">Clinical Assistance</h5>
+    </div>
+    <div style="height: 60%;text-align: center" class="background logoAnimation one"> 
+        
+        <img src="assets/ZClear.png" style="height: 40%;width: 50%;"/>
+    </div>
+
+      <div style="background: none;text-align: center;margin-left: 27px;">
+        <label position="floating">Email</label>
+        <input type="text" style="background-color: orange;color: #7c85b6;
+        border-radius: 12px;
+        border-color: #ff000000;" />
+      </div>
+      <div style="text-align: center;">
+        <label position="floating">Password</label>
+        <input type="password" style="background-color: orange;
+        border-radius: 12px;
+        border-color: #ff000000;color:#7c85b6"/>
+      </div>
+      <div>
+        <div style="text-align: center">
+          <button type="submit" expand="block" style="    border-radius: 10px;
+          border-color: red;
+          color: royalblue;
+          text-align: center;
+          margin-left: 71px;"  class="btncolor">Sign In</button>
+          <div style="padding-top: 10px;">
+           <a [routerLink]="['/register']" class="small-text" style="font-weight: bolder;color: white;">Register</a>
+          <a [routerLink]="['/forgot-password']" class="small-text" style="padding-left: 35%;font-weight: bolder;color: white;">Forgot Password?</a>
+        </div>
+        </div>
+      </div>
+</form>
+
+</div> 
+ </div>
+
+
+
+      
+   
